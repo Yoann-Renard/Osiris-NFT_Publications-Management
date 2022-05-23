@@ -49,7 +49,7 @@ class DBInterface:
         removed_publication = self.collection.find_one_and_delete({'_id': ObjectId(publication_id)})
         self.del_like_user_list(publication_id)
         self.database["pub_like_map"].delete_one({
-            {"_id": publication_id}
+            {"_id": ObjectId(publication_id)}
         })
         url: str = removed_publication["media_url"]
         if url:

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24d39d3b-eef8-4ae0-aa17-bc7da9890217" name="Changes" comment="add get nft metadata" />
+    <list default="true" id="24d39d3b-eef8-4ae0-aa17-bc7da9890217" name="Changes" comment="fix published state" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/GitHub projects/Osiris-NFT_KrakenD",
+    "last_opened_file_path": "D:/GitHub projects/Osiris-NFT_Deployment",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -79,13 +79,6 @@
       <workItem from="1653296998482" duration="1305000" />
       <workItem from="1653306746116" duration="2227000" />
       <workItem from="1653309709565" duration="3159000" />
-    </task>
-    <task id="LOCAL-00001" summary="endpoint update">
-      <created>1649936376836</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1649936376836</updated>
     </task>
     <task id="LOCAL-00002" summary="endpoint update">
       <created>1649937051241</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653316397393</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="fix published state">
+      <created>1653340447840</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1653340447841</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix attempt" />
     <MESSAGE value="ededee" />
     <MESSAGE value="chuis con" />
     <MESSAGE value="add liked pub" />
@@ -466,6 +465,7 @@
     <MESSAGE value="/nft =&gt; /mint endpoint" />
     <MESSAGE value="add update wallet endpoint" />
     <MESSAGE value="add get nft metadata" />
-    <option name="LAST_COMMIT_MESSAGE" value="add get nft metadata" />
+    <MESSAGE value="fix published state" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix published state" />
   </component>
 </project>
