@@ -51,10 +51,10 @@ class DBInterface:
         self.database["pub_like_map"].delete_one(
             {"_id": ObjectId(publication_id)}
         )
-        url: str = removed_publication["media_url"]
+        """url: str = removed_publication["media_url"]
         if url:
             file_id = url.split("/")[3]
-            self.delete_image(file_id)
+            self.delete_image(file_id)"""
         print(f"Publication: {publication_id} removed from the database")
         return removed_publication
 
